@@ -8,7 +8,7 @@ from keras.utils import pad_sequences
 
 
 def load_data() -> Dict[str, Union[List[Any], int]]:
-    path = "keras-data.pickle"
+    path = "sliced_data.pickle"
     with open(file=path, mode="rb") as file:
         data = pickle.load(file)
 
