@@ -3,3 +3,5 @@ A neural network that detects whether the review is positive or negative – wri
 
 For the assignment itself we were given the load_data() and preprocess_data() functions, alongside the keras-data file of pickle format, where the reviews are stored.
 The train_model function was defined by me.
+
+Note: It is recommended to run this program in linux or WSL environment, since windows has issues with tensorflow.
